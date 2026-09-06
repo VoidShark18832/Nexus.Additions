@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_planks": {
+    "has_crafting_table": {
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:planks"
+            "items": "minecraft:crafting_table"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "nexusadditions:stick"
+        "recipe": "nexusadditions:planks_to_crafting_table"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_planks"
+      "has_crafting_table"
     ]
   ],
   "rewards": {
     "recipes": [
-      "nexusadditions:stick"
+      "nexusadditions:planks_to_crafting_table"
     ]
   }
 }
