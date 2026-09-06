@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "Crafting",
+  "key": {
+    "P": "#minecraft:planks"
+  },
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "result": {
+    "count": 64,
+    "id": "minecraft:stick"
+  }
+}

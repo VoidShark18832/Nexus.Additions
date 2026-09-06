@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "Building",
+  "key": {
+    "P": "minecraft:jungle_planks"
+  },
+  "pattern": [
+    "P  ",
+    "PP ",
+    "PPP"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:jungle_stairs"
+  }
+}
