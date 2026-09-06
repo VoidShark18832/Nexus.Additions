@@ -1,5 +1,6 @@
 package net.nexus.nexusadditions.datagen;
 
+import java.io.File;
 import java.util.concurrent.CompletableFuture;
 
 import net.minecraft.core.HolderLookup;
@@ -36,7 +37,8 @@ public class NexusRecipeProvider extends FabricRecipeProvider {
                         .define('P', ItemTags.PLANKS)
                         .group("crafting")
                         .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
-                        .save(output);
+                        .save(output, "minecraft:stick");
+
             }
         };
     }
